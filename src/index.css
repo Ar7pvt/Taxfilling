@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+container-fluid{
+  position: fixed;
+  display: flex;
+}
+
+
+/* for global use */
+
+.section{
+  padding: 4rem 0 2rem;
+}
+.container{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+
+
+/* PAge5 map index */
+
+

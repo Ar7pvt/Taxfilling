@@ -1,0 +1,93 @@
+
+.title{
+  display:block;
+  text-align: center;
+  font-size: 2rem;
+  color: rgb(237, 235, 238);
+  margin:1rem 0;
+  
+}
+.page3{
+  max-height: 100rem;
+  padding: 0px 40px 102px 40px;
+  background-color: black;
+
+}
+
+.grid-two-row {
+  grid-template-rows: repeat(2, 1fr);
+}
+.secContent {
+  max-width: 120rem;
+  margin:-100px auto;
+  
+}
+.gridc {
+  display: grid;
+  gap: 2rem;
+}
+
+.gridr {
+  display: grid;
+  gap: -1rem;
+}
+.grid-three-column {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.singleDestination{
+  height: 95%;
+  display: grid;
+  row-gap: 5px;
+  padding: 1rem 1rem 2rem;
+  border-radius: 20px;
+  align-items: center;
+  background: rgb(234, 236, 235);
+  box-shadow: 0.2px 4px rgba(168, 168, 169, 0.549);
+  overflow: hidden;
+  &:hover{
+    background: rgb(180, 179, 179);
+    box-shadow: 1 4px 4px rgba(125, 125, 136, 0.549);
+    transition: .3s ease;
+  }
+  .imageDiv{
+    height: 180px;
+    width: 100%;
+    overflow: hidden;
+    img{
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+      transition: 2s ease;
+    }
+
+    &:hover{
+        img{
+        transform: scale(1.1);
+        }
+    }
+  }
+
+  .cardInfo{
+    padding: 1rem;
+    .destTitle{
+      color: dodgerblue;
+      font-size: 1.25rem;
+    }
+  }
+
+  .desc{
+    font-size: 13.5px;
+    color:black;
+    font-weight: 350;
+  }
+
+  .btn{
+    margin-top: 1rem;
+    font-weight: 600;
+  }
+}
+
+
+
+
